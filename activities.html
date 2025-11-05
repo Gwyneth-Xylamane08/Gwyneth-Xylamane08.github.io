@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activities - Gwyneth Xylamane</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['Playfair Display', 'serif'],
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            rose: {
+              500: '#ec4899',
+              600: '#db2777'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gradient-to-br from-rose-50 via-white to-rose-100 text-gray-800 font-sans min-h-screen">
+
+  <!-- Header -->
+  <header class="py-6 bg-white/70 backdrop-blur-sm border-b border-rose-200/50 shadow-sm">
+    <div class="max-w-6xl mx-auto flex justify-between items-center px-6">
+      <h1 class="text-3xl font-serif font-bold text-rose-600">My Activities</h1>
+      <a href="index.html" class="text-rose-500 hover:text-rose-600 transition-all font-light">← Back to Home</a>
+    </div>
+  </header>
+
+  <!-- Activities Section -->
+  <section id="activities" style="padding: 40px; text-align: center; background-color: #f9f9f9;">
+  <h2 style="font-size: 2em; color: #333;">Activities</h2>
+  <p>Here are my web development activities:</p>
+  <ul style="list-style: none; padding: 0;">
+    <li style="margin: 10px 0;">
+      <a href="https://Gwyneth-Xylamane08.github.io/Activity4_WebDev/" target="_blank" style="text-decoration: none; color: #007bff;">
+         Activity 4 - IPHONE 17 PRO MAX
+      </a>
+    </li>
+    <li style="margin: 10px 0;">
+      <a href="https://Gwyneth-Xylamane08.github.io/Activity5_WebDev/" target="_blank" style="text-decoration: none; color: #007bff;">
+        Activity 5 - SWITZERLAND 
+      </a>
+    </li>
+  </ul>
+</section>
+
+  <!-- Footer -->
+  <footer class="glass-effect text-center py-8 border-t border-rose-200/50">
+    <p class="text-gray-600 font-light">© 2025 Gwyneth Xylamane — All rights reserved</p>
+  </footer>
+
+</body>
+</html>
