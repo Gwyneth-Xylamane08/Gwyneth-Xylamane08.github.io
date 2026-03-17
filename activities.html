@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activities - Gwyneth Xylamane</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['Playfair Display', 'serif'],
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            rose: {
+              500: '#ec4899',
+              600: '#db2777'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gradient-to-br from-rose-50 via-white to-rose-100 text-gray-800 font-sans min-h-screen">
+
+  <!-- Header -->
+  <header class="py-6 bg-white/70 backdrop-blur-sm border-b border-rose-200/50 shadow-sm">
+    <div class="max-w-6xl mx-auto flex justify-between items-center px-6">
+      <h1 class="text-3xl font-serif font-bold text-rose-600">My Activities</h1>
+      <a href="index.html" class="text-rose-500 hover:text-rose-600 transition-all font-light">← Back to Home</a>
+    </div>
+  </header>
+
+<!-- Activities Section -->
+<section id="activities" class="py-10 text-center bg-gray-100">
+  <h2 class="text-3xl text-gray-800 mb-4 font-semibold">Activities</h2>
+  <p class="mb-6 text-gray-700">Here are my web development activities:</p>
+
+  <ul class="space-y-4 list-none">
+    <li>
+      <a href="https://gwyneth-xylamane08.github.io/activity4-webdev/" target="_blank"
+         class="text-blue-600 hover:text-blue-800 transition-colors">
+        Activity 4 – IPHONE 17 PRO MAX
+      </a>
+    </li>
+
+    <li>
+      <a href="https://gwyneth-xylamane08.github.io/Activity5_WebDev/" target="_blank"
+         class="text-blue-600 hover:text-blue-800 transition-colors">
+        Activity 5 – SWITZERLAND
+      </a>
+    </li>
+
+    <li>
+      <a href="https://gwyneth-xylamane08.github.io/Photo-Gallery/" target="_blank"
+         class="text-blue-600 hover:text-blue-800 transition-colors">
+        Activity 6 – Photo Gallery Website
+      </a>
+    </li>
+
+    <li>
+      <a href="https://gwyneth-xylamane08.github.io/nasa-api-explorer/" target="_blank"
+         class="text-blue-600 hover:text-blue-800 transition-colors">
+        Activity 7 – NASA API Explorer
+      </a>
+    </li>
+
+    <li>
+      <a href="https://gwyneth-xylamane08.github.io/emoji-api/" target="_blank"
+         class="text-blue-600 hover:text-blue-800 transition-colors font-medium">
+        Activity 7 – Emoji API
+      </a>
+    </li>
+</ul>
+</section>
+  
+  <!-- Footer -->
+  <footer class="glass-effect text-center py-8 border-t border-rose-200/50">
+    <p class="text-gray-600 font-light">© 2025 Gwyneth Xylamane — All rights reserved</p>
+  </footer>
+
+</body>
+</html>
